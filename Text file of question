@@ -9,6 +9,7 @@ pandas.read_csv('"'C:\Users\live4\Downloads\ChicagoCensusData.csv'"')
 df.to_sql("ChicagoCensusData", con, if_exists='replace', index=False,method="multi")
 
 It is very frustrating because I know how to write the SQL queries required for the questions, but I do not believe a connection is being established to FinalDB.db, as I do not get a message saying I am connected, but rather keep getting all different kinds of errors.  I would be very grateful if someone could help guide me in the right direction, because I don't understand what I am doing wrong.  Thank you!!!
+Wouldn't I need the details, like database name, and a password, to make an SSH connection to the database?  It is just this connection issue that has me stumped, not the SQL itself.  
 
 Kind Regards,
 
